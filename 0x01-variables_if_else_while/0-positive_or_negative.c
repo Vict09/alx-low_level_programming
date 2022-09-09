@@ -1,8 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 /*
- * main-Prints if number is postive, zero or negative.
- *
+ * main-Prints if number is postive, zero or negativei
  * Return: Always (Success)
 */
 int main(void)
@@ -13,15 +12,14 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is postive\n",n);
+		printf("%d is postive\n", n);
 	}
 	else if (n==0)
 	{
-		printf("%d is zero\n",n);
-	}
+		printf("%d is zero\n", n);	}
 	else
 	{
-		printf("%d is negative\n",n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
