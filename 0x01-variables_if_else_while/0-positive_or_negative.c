@@ -4,7 +4,7 @@
 /*
  * main-Prints if number is postive, zero or negativei
  * Return: Always (Success)
-*/
+ */
 int main(void)
 {
 	int n;
@@ -13,9 +13,9 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is postive\n", n);
+		printf("%d is positive\n", n);
 	}
-	else if (n==0)
+	else if (n == 0)
 	{
 		printf("%d is zero\n", n);	}
 	else
