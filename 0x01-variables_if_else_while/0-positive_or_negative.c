@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - Prints if number is postive, zero or negativei
+ * main - Prints if number is postive, zero or negative
+ *
  * Return: Always (Success)
  */
 int main(void)
