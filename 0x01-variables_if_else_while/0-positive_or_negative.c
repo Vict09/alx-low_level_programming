@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /*
  * main-Prints if number is postive, zero or negativei
  * Return: Always (Success)
