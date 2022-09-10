@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Print alphabets in lowercase without e or q then followed by a new line
+ * main - Print alphabets in lowercase then followed by a new line
  * using putchar
  * Return; Always (Success)
  */
@@ -8,9 +8,10 @@
 int main(void)
 {
 	int lw = 'a';
+	
 	while (lw <= 'z')
 	{
-		if (lw == 'e'|| lw == 'q')
+		if (lw == 'e' || lw == 'q')
 		{
 			lw += 1;
 		}
@@ -21,5 +22,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
