@@ -2,7 +2,7 @@
 /**
  * main - Print alphabets in lowercase then followed by a new line
  * using putchar
- * Return; Always (Success)
+ * Return: Always (Success)
  */
 
 int main(void)
