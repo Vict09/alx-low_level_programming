@@ -6,16 +6,15 @@
  * Return: 0
  */
 
-int alpha(void);
+int print_alphabet();
 int main(void)
 {
-	alpha();
-	_putchar('\n');
+	print_alphabet()
 	return (0);
 }
 
 
-int alpha(void)
+int print_alphabet()
 {
 	char c;
 
@@ -23,5 +22,6 @@ int alpha(void)
 	{
 		_putchar(c);
 	}
+	_putchar('\n');
 	return (0);
 }
