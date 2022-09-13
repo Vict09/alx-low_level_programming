@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int alpha();
+int alpha(void);
 int main(void)
 {
 	alpha();
@@ -15,13 +15,13 @@ int main(void)
 }
 
 
-int alpha()
+int alpha(void)
 {
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
-		return (0);
 	}
+	return (0);
 }
