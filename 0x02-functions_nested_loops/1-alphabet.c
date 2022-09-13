@@ -11,7 +11,7 @@ int main(void)
 {
 	alpha();
 	_putchar('\n');
-	return
+	return (0);
 }
  int alpha(void)
 {
@@ -20,6 +20,6 @@ int main(void)
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
-		return (0);
+		return ();
 	}
 }
