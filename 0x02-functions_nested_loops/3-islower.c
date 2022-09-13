@@ -6,18 +6,18 @@
  */
 int _islower(int c)
 {
+	int p;
 	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		if (c == i)
 		{
-			return (1);
+			p = 1;
 		}
 		else
 		{
-			return (0);
+			p = 0;
 		}
 	}
-	return X;
-}
+	return(p)}
