@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int alpha(void);
+int alpha();
 int main(void)
 {
 	alpha();
@@ -15,7 +15,7 @@ int main(void)
 }
 
 
-int alpha(void)
+int alpha()
 {
 	char c;
 
