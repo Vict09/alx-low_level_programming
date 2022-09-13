@@ -2,7 +2,7 @@
 
 /**
  *main - prints the alphabets
- *contains a function that print the alphabets
+ *print_alphabet - contains a function that print the alphabets
  * Return: 0
  */
 
