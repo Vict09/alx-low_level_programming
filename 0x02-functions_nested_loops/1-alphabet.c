@@ -13,13 +13,15 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
- int alpha(void)
+
+
+int alpha(void)
 {
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
-		return ();
+		return (0);
 	}
 }
