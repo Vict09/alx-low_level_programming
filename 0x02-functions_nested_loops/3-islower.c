@@ -20,4 +20,5 @@ int _islower(int c)
 			p = 0;
 		}
 	}
-	return(p)}
+	return (p);
+}
