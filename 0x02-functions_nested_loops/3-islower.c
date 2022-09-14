@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - check for lower case characters
- *c:is the interger to use function
+ *@c:is the interger to use function
  * Return: 0
  */
 int _islower(int c)
@@ -10,7 +10,7 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
