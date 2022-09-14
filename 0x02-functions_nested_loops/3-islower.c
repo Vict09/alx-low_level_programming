@@ -1,24 +1,17 @@
 #include "main.h"
 /**
  * _islower - check for lower case characters
- *
+ *c:is the interger to use function
  * Return: 0
  */
 int _islower(int c)
 {
-	int p;
-	int i;
-
-	for (i = 'a'; i <= 'z'; i++)
+	if (c >= 'a' && c <= 'z')
 	{
-		if (c == i)
-		{
-			p = 1;
-		}
-		else
-		{
-			p = 0;
-		}
+		return (1);
 	}
-	return (p);
+	else 
+	{
+		return (0);
+	}
 }
