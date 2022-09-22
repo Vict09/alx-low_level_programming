@@ -6,17 +6,18 @@
  * @src:another pointer to the second string
  * Return (*char)
  */
-char *_strcat(char *dest,char *src)
+char *_strcat(char *dest, char *src)
 {
-	while (*dest)
+	int length, j; /* j will hold the length of the source */
+	length = 0;
+	while (dest[length] != '\0')
 	{
-		dest++;
+		length++;
 	}
-	while (*src)
+	for (j = 0; src[j] != '\0'; j++, length++)
 	{
-		*dest = *src;
-		src++;
-		dest++;
+		dest[length] = src[j];
 	}
-	return(*dest);
+	dest[length] = '\0';
+	return (dest);
 }
