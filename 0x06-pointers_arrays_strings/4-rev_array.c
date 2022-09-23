@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  *reverse_array - revereses an array.
  *@a: pointer to array.
  *@n: number of elements of an array.
