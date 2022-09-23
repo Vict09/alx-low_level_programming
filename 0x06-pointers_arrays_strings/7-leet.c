@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  *leet - encodes a string into 1337.
  *letters a and A are replaced by 4.
