@@ -24,8 +24,12 @@ int _strlen(char *s)
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *f;
-	int m, p;
+	int m, p, i;
 
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 	m = _strlen(s1);
 	p = _strlen(s2);
 	if (n > p)
