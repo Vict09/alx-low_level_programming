@@ -39,3 +39,4 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		f[i] = s2[i - m];
 	f[i] = '\0';
 	return (f);
+}
